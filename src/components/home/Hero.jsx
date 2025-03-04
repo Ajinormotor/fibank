@@ -29,17 +29,21 @@ const Hero = () => {
     </button>
             </div>
 
+
+<div className="flex flex-col md:flex-row items-start md:items-center gap-4">
+    
+
             <div className="flex items-center">
                 <ul className="flex">
 
                     { img_source.map((n,index) => (
-                    <li className="rounded-[50%] w-[100px] h-[100px] relative " 
+                    <li className={`rounded-[50%] w-[100px] h-[100px] relative `} 
                     key={index}
                     style={{ left: `-${index * 35}px`}}
                     
                     > <img 
                     src={n.path}
-                    alt="" className="md:w-[130px] md:h-[100px] rounded-[50%] absolute  z-10"/></li>
+                    alt="" className="md:w-[130px] md:h-[100px]  rounded-[50%] absolute  z-10"/></li>
                 ))
                     }  
        
@@ -47,14 +51,33 @@ const Hero = () => {
                 
             </div>
 
+            <div className="flex flex-col">
+
+                <ul className="flex gap-1"l>
+                    <li><i className="ri-star-line text-xl md:text-4xl"></i></li>
+                    <li><i className="ri-star-line text-xl md:text-4xl"></i></li>
+                    <li><i className="ri-star-line text-xl md:text-4xl"></i></li>
+                    <li><i className="ri-star-line text-xl md:text-4xl"></i></li>
+                    <li><i className="ri-star-line text-xl md:text-4xl"></i></li>
+                    
+                </ul>
+                <div className="flex items-center gap-1 ">
+                    <h1 className="md:text-[28px] text-xl tex-white font-semibold">13k rating</h1>
+                    <p className="text-xl md:text-[28px] text-[#999999] opacity-80">(4.7 Rating)</p>
+                </div>
+
+            </div>
+
+            </div>
+
             <div className="flex gap-2  items-center">
 
-            <button className='h-[52px] max-w-[149px] w-full rounded-[40px] flex items-center  bg-[#aeff1c]
+            <button className='h-[52px] max-w-[159px] w-full rounded-[40px] flex items-center  bg-[#aeff1c]
     justify-center py-3 px-5  cursor-pointer'>
         <h1 className='text-black rakas font-bold'>Book a meeting</h1>
     </button>
 
-    <button className='h-[52px] max-w-[149px] w-full rounded-[40px] flex items-center  border-[1px] border-[#aeff1c]
+    <button className='h-[52px] max-w-[159px] w-full rounded-[40px] flex items-center  border-[1px] border-[#aeff1c]
     justify-center py-3 px-5  cursor-pointer'>
         <h1 className='text-white rakas font-bold'>Watch Video</h1>
     </button>

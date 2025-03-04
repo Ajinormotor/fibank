@@ -16,7 +16,7 @@ const [ menu, setMenu] = useState(false)
    <SmoothScroll>
 
     <AnimatePresence mode='wait'>
-        <Sidebar  menu={menu} setMenu={setMenu} />
+       <Sidebar  menu={menu} setMenu={setMenu} /> 
     </AnimatePresence>
     <Meta />
 

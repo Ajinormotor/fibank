@@ -31,7 +31,7 @@ const barVariants = {
     transition: {
       duration: 1.5,
       ease: [0.76, 0, 0.24, 1],
-      delay: 0.3
+      delay: 0.9
     }
 
   }
@@ -49,7 +49,7 @@ const locationvariants = {
   }),
   exit: {
     opacity: 0,
-    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] },
+    transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
   },
 };
 
@@ -78,24 +78,17 @@ className="w-full absolute top-[20px] right-0 items-end px-2 md:hidden">
    </div>
 
      {/* Navigation Links */}
-     <AnimatePresence mode='wait'>
-     <div className={`flex flex-col items-center justify-center gap-3`}>
- 
-
-     
+ {/* Navigation Links */}
+<AnimatePresence mode="wait">
+  {menu && ( // Ensure links only exist when `menu` is true
+    <div className="flex flex-col items-center justify-center gap-3">
       {nav_link.map((n, index) => (
-
-        <Texts
-          n={n}
-          key={index}
-          index={index}
-          menu={menu}
-          setMenu={setMenu}
-        />
+        <Texts n={n} key={index} index={index} menu={menu} setMenu={setMenu} />
       ))}
-   
     </div>
-    </AnimatePresence>
+  )}
+</AnimatePresence>
+
 
         {/* Get Started Button */}
         <AnimatePresence mode='wait'
