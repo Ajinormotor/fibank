@@ -69,7 +69,7 @@ initial={'open'}
 animate={ menu ? " open" : "close"}
 
 className={`md:hidden flex flex-col items-center justify-center bg-[#aeff1c] gap-5 h-screen
-oveflow-x-hidden fixed z-[100000]
+oveflow-x-hidden fixed z-[1000000]
   ${menu? "w-[100%] top-0 left-0 h-[100vh]" : "w-0 left-[-100%]"}`}>
   
 <div onClick={() => setMenu(!menu)} 

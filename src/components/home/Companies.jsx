@@ -30,8 +30,8 @@ const Companies = () => {
       {/* Moving logos */}
       <div className="flex items-center justify-center overflow-hidden w-full pt-5">
         <motion.div
-          className="flex items-center min-w-[150%] sm:min-w-[200%] gap-5"
-          animate={{ x: ["0%", "-50%"] }} // Moves the logos from right to left
+          className="flex items-center min-w-[150%] sm:min-w-[300%] gap-5"
+          animate={{ x: ["0%", "-25%"] }} // Moves the logos from right to left
           transition={{ repeat: Infinity, ease: "linear", duration: 100 }} // Adjust speed for better smoothness
         >
           {imageDouble.map((m, index) => (
