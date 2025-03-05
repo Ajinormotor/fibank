@@ -15,7 +15,7 @@ const Meta = ({ title, keywords, description }) => {
 export default Meta;
 
 Meta.defaultProps = {
-  title: 'Secure Online Banking - Ajino Bank',
+  title: 'Secure Online Banking - FiBank',
   description: 'Experience secure, fast, and convenient online banking with Ajino Bank. Manage your accounts, transfer funds, and access financial services anytime, anywhere.',
   keywords: 'online banking, secure banking, digital banking, financial services, money transfer, mobile banking',
 };
