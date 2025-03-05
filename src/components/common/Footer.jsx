@@ -27,7 +27,7 @@ export default function Footer() {
  <div className='bg-[#104042] w-full min-h-[300px] pb-5 md:py-15 mt-[30px] gap-6
  flex flex-col items-center justify-center'>
 
-<div className=' flex flex-col md:flex-row items-center justify-between gap-10 mt-[200px]
+<div className=' flex flex-col lg:flex-row items-center justify-between gap-10 mt-[200px]
  w-[90%] border-b-[1px] border-white py-10'>
 
 

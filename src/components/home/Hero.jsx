@@ -14,7 +14,7 @@ const Hero = () => {
 
    <section className="w-full min-h-[80vh] flex items-center justify-center">
 
-    <div className="flex flex-col md:flex-row items-center justify-center gap-20 p-5 md:p-10">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-20 p-5 md:p-10">
 
         <div className="flex flex-col gap-6">
             <h1 className="lg:text-[75px] text-[40px] lg:leading-[75px] rakas">Top Financial Planning</h1>

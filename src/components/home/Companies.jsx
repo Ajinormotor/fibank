@@ -14,7 +14,7 @@ const imageDouble = [...images, ...images, ...images, ...images, ...images, ...i
 
 const Companies = () => {
   return (
-    <section className="my-10  gap-5 min-h-[200px] bg-[#66c801] rotate-2 flex flex-col items-center justify-center w-full overflow-hidden">
+    <section className="my-10 py-5  gap-5 min-h-[200px] bg-[#66c801] rotate-2 flex flex-col items-center justify-center w-full overflow-hidden">
       
       {/* Heading */}
       <div className="flex flex-col gap-1 items-center justify-center text-center px-4">
