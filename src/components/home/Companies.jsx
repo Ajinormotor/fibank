@@ -10,11 +10,11 @@ const images = [
   { img: 'https://hwp.creativegigstf.com/fibank/assets/img/brand/brand-10.svg' },
 ];
 
-const imageDouble = [...images, ...images, ...images, ...images, ...images, ...images, ...images, ...images];
+const imageDouble = [...images, ...images, ...images, ...images];
 
 const Companies = () => {
   return (
-    <section className="my-10 py-5  gap-5 min-h-[200px] bg-[#66c801] rotate-2 flex flex-col items-center justify-center w-full overflow-hidden">
+    <section className="my-10  gap-5 min-h-[200px] bg-[#66c801] rotate-2 flex flex-col items-center justify-center w-full overflow-hidden">
       
       {/* Heading */}
       <div className="flex flex-col gap-1 items-center justify-center text-center px-4">
@@ -31,8 +31,8 @@ const Companies = () => {
       <div className="flex items-center justify-center overflow-hidden w-full pt-5">
         <motion.div
           className="flex items-center min-w-[150%] sm:min-w-[200%] gap-5"
-          animate={{ x: ["0%", "-100%"] }} // Moves the logos from right to left
-          transition={{ repeat: Infinity, ease: "linear", duration: 150 }} // Adjust speed for better smoothness
+          animate={{ x: ["0%", "-50%"] }} // Moves the logos from right to left
+          transition={{ repeat: Infinity, ease: "linear", duration: 100 }} // Adjust speed for better smoothness
         >
           {imageDouble.map((m, index) => (
             <img 
