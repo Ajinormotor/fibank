@@ -45,7 +45,7 @@ export default function ChooseUs() {
             <h1 className="text-base font-bold text-[#65c800] uppercase">Why choose us</h1>
         </div>
 
-        <h1 className="md:text-[48px] text-[30px]">Why choose FinPoan Crypto
+        <h1 className="md:text-[48px] text-[30px]">Why choose Fibank
         </h1>
     
 

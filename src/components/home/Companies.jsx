@@ -9,7 +9,7 @@ const images = [
   { img: 'https://hwp.creativegigstf.com/fibank/assets/img/brand/brand-10.svg' },
 ];
 
-const imageDouble = [...images, ...images, ...images, ...images];
+const imageDouble = [...images, ...images, ...images, ...images, ...images, ...images, ...images, ...images];
 
 const Companies = () => {
   return (
@@ -31,7 +31,7 @@ const Companies = () => {
         <motion.div
           className="flex items-center min-w-[150%] sm:min-w-[200%] gap-5"
           animate={{ x: ["0%", "-100%"] }} // Moves the logos from right to left
-          transition={{ repeat: Infinity, ease: "linear", duration: 200 }} // Adjust speed for better smoothness
+          transition={{ repeat: Infinity, ease: "linear", duration: 150 }} // Adjust speed for better smoothness
         >
           {imageDouble.map((m, index) => (
             <img 
