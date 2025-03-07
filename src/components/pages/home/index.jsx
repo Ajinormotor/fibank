@@ -1,7 +1,8 @@
 import React from 'react'
 import Maincontent from './main/maincontent'
-import Footer from '../common/Footer'
-import Header from '../common/Header'
+
+import Footer from "../../common/Footer"
+import Header from '../../common/Header'
 
 export default function HomeIndex({menu, setMenu}){
 
@@ -19,7 +20,7 @@ export default function HomeIndex({menu, setMenu}){
  
 
     <div className='max-w-[1300px] w-full'>
-    <Footer  /> 
+<Footer />
 </div>
 
 </div>
