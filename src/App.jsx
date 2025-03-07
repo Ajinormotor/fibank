@@ -6,6 +6,8 @@ import { Route, Routes } from 'react-router-dom'
 
 const HomeWrapper  = lazy(() => import('./screens/Home.jsx'))
 const AuthWrapper = lazy(()=> import('./screens/Auth.jsx'))
+const AdminWrapper = lazy(()=> import('./screens/AdminDashboard.jsx'))
+const UserWrapper = lazy(()=> import('./screens/UsersDashboard.jsx'))
 
 function App() {
   return (
@@ -25,6 +27,23 @@ function App() {
      />
     </Suspense>
   } />
+
+
+<Route  path='/dashboard/user' element={
+    <Suspense  fallback={<></>}>
+   <UserWrapper
+     />
+    </Suspense>
+  } />
+
+<Route  path='/dashboard/admin' element={
+    <Suspense  fallback={<></>}>
+   <AdminWrapper
+     />
+    </Suspense>
+  } />
+
+
 
 
 

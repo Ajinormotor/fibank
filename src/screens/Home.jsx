@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Meta from '../components/common/Meta'
 import SmoothScroll from '../constants/utils/SmoothScroll'
-import HomeIndex from '../components/home'
+import HomeIndex from '../components/pages/home'
 import { AnimatePresence } from 'framer-motion'
 import Sidebar from '../components/common/sidebar'
 // import Preloader from '../components/loader/Preloader'

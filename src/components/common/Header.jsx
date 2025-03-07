@@ -82,6 +82,7 @@ const Header = ({ setMenu }) => {
       <i className={`ri-menu-2-line text-2xl font-bold
         ${isSticky ? "text-black" : "text-white"}`}></i>
     </div>
+    
   </div>
 
 </section>

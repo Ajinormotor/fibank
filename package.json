@@ -12,6 +12,7 @@
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
     "@tailwindcss/vite": "^4.0.9",
+    "axios": "^1.8.2",
     "framer-motion": "^12.4.10",
     "gsap": "^3.12.7",
     "react": "^18.3.1",
@@ -20,6 +21,7 @@
     "react-lazy-load-image-component": "^1.6.3",
     "react-router-dom": "^7.2.0",
     "react-spinners": "^0.15.0",
+    "react-toastify": "^11.0.5",
     "remixicon": "^4.6.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.15",

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import user from '../../assets/login_logo.png'
+import user from '../../../assets/login_logo.png'
 import Login from './Login'
 import Register from './Register'
 
@@ -15,7 +15,7 @@ const [ show, setShow] = useState('Login')
       <img 
       src={user}  alt=''
       className={`lg:max-w-[600px] 
-      ${show === 'Register' ? 'lg:h-[700px]' : 'h-screen'} `}  />
+      ${show === 'Register' ? 'lg:h-[720px]' : 'h-screen'} `}  />
     </div>
 
     <div className='lg:max-w-[700px]   justify-center w-full flex flex-col gap-7 p-5'>

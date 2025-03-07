@@ -1,6 +1,6 @@
 import React from 'react'
 import SmoothScroll from '../constants/utils/SmoothScroll'
-import AuthIndex from '../components/auth'
+import AuthIndex from '../components/pages/auth'
 import Meta from '../components/common/Meta'
 
 const Auth = () => {

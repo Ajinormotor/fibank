@@ -36,3 +36,10 @@ body {
   width: 90%;
 }
 
+
+.Feature{
+  scrollbar-color:  transparent transparent;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+
+}
