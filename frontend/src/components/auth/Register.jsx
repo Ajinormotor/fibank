@@ -62,7 +62,7 @@ const [showPass, setShowPass] = useState(false)
       </div>
 
       <div className='flex items-center justify-between'>
-      <button className='  w-[150px] h-[49px] md:w-full flex items-center rounded-[15px] 
+      <button className='  h-[49px] w-full flex items-center rounded-[15px] 
                  bg-[#aeff1c] justify-center py-3 md:px-[30px]  cursor-pointer'>
         <h1 className='text-black rakas font-bold uppercase text-sm md:text-[18px]'>Register</h1>
     </button>
