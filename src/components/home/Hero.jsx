@@ -51,7 +51,7 @@ const Hero = () => {
                 
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col ">
 
                 <ul className="flex gap-1"l>
                     <li><i className="ri-star-line text-xl md:text-4xl"></i></li>
@@ -62,8 +62,8 @@ const Hero = () => {
                     
                 </ul>
                 <div className="flex items-center gap-1 ">
-                    <h1 className="md:text-[28px] text-xl tex-white font-semibold">13k rating</h1>
-                    <p className="text-xl md:text-[28px] text-[#999999] opacity-80">(4.7 Rating)</p>
+                    <h1 className="md:text-[22px] text-xl tex-white font-semibold">13k rating</h1>
+                    <p className="text-xl md:text-[22px] text-[#999999] opacity-80">(4.7 Rating)</p>
                 </div>
 
             </div>

@@ -105,7 +105,7 @@ className="w-full absolute top-[20px] right-0 items-end px-2 md:hidden">
         className="h-[52px] max-w-[149px] w-full rounded-[40px] flex items-center bg-white
     justify-center py-3 px-5 cursor-pointer"
       >
-        <h1 className="text-black rakas font-bold">Get Started</h1>
+         <Link to="/auth" className="text-black rakas font-bold"> Get Started</Link>
       </button>
     </motion.div>
     </AnimatePresence>

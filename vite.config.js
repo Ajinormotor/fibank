@@ -18,5 +18,19 @@ export default defineConfig({
       "@": path.resolve(__dirname , "./src"),
     },
   },
+  server: {
+    proxy:{
+      '/api': {
+        target: '',
+        changeOrigin: true,
+        headers: {
+          "Content-Type" : "application/json",
+          Accept : "application/json",
+        }
+
+      }
+    }
+  }
+
 
 })
