@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import eyes from "../../../assets/eye.svg"
 import hideEyes from "../../../assets/eye-slash.svg"
 import { toast, ToastContainer } from 'react-toastify'
-import ClipLoader from "react-spinners/Cliploader"
+import ClipLoader from "react-spinners/ClipLoader";
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 

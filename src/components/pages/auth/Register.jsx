@@ -5,7 +5,8 @@ import hideEyes from "../../../assets/eye-slash.svg"
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
-import ClipLoader from "react-spinners/Cliploader"
+import ClipLoader from "react-spinners/ClipLoader";
+
 
 const media_icon = [
   { icon: 'ri-facebook-circle-line'},
